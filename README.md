@@ -39,13 +39,3 @@ The PDF breaks down the curriculum across the following 10 core lecture modules:
     *   *Core Concepts:* Automated generation pipelines within SageMaker Studio, linking live registries to pull operational metadata, and exporting compliant JSON/PDF records for auditing.
 
 ---
-
-## 🎨 Design & Layout Specs (PDF Architecture)
-
-The document was compiled using an HTML-to-PDF layout engine with the following design standards:
-*   **Typographical Hierarchy:** Built with an asymmetrical layout using `A4` page margins ($20\text{mm} \times 15\text{mm}$) and scannable tracking to allow quick review.
-*   **Embedded Vector Graphics:** Includes three custom integrated SVG architecture diagrams:
-    1.  *Figure 1:* Structural flow of the Pillars of Responsible AI.
-    2.  *Figure 2:* Active proxy placement of a Bedrock Guardrail between user prompt lines and backend Foundation Models.
-    3.  *Figure 3:* Branching logic routing engine for high vs. low confidence values within Amazon A2I.
-*   **Visual Highlights:** Uses green-bordered accent boxes (`#F0FDF4`) to clearly separate **Hands-On Checklists** from standard conceptual definitions.
